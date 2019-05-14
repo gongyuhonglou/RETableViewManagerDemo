@@ -1,0 +1,40 @@
+PODS:
+  - Masonry (1.0.2)
+  - MBProgressHUD (1.1.0)
+  - REFormattedNumberField (1.1.6)
+  - RETableViewManager (1.7):
+    - REFormattedNumberField (~> 1.1.5)
+    - REValidation (~> 0.1.4)
+  - REValidation (0.1.4)
+
+DEPENDENCIES:
+  - Masonry (~> 1.0.0)
+  - MBProgressHUD (from `https://github.com/jdg/MBProgressHUD.git`)
+  - RETableViewManager
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - REFormattedNumberField
+    - RETableViewManager
+    - REValidation
+
+EXTERNAL SOURCES:
+  MBProgressHUD:
+    :git: https://github.com/jdg/MBProgressHUD.git
+
+CHECKOUT OPTIONS:
+  MBProgressHUD:
+    :commit: 202d8895c6eb10ead2e4b3c5837a68c95693d51f
+    :git: https://github.com/jdg/MBProgressHUD.git
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 0f5bb58f04db85da16d8b9e9781df7f88cadd4ec
+  REFormattedNumberField: 70fc5fb1218ebd5ee9983820defd12806d5c6ec6
+  RETableViewManager: 0f24d796c42c0890d38c79cc9aeb3871e186726e
+  REValidation: 38c4de1be58455f8b00aab208ac80db316a66b7f
+
+PODFILE CHECKSUM: 3198ca576a079fbebf64bce70015772d6fb38793
+
+COCOAPODS: 1.5.3

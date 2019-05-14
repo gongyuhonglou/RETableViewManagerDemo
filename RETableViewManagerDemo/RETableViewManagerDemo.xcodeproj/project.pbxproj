@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08141D0F228AB5E7008E3068 /* NSObject+UserDefined.m in Sources */ = {isa = PBXBuildFile; fileRef = 08141D0D228AB5E7008E3068 /* NSObject+UserDefined.m */; };
+		08141D16228AB6FD008E3068 /* MBProgressHUD+LMJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 08141D11228AB6FD008E3068 /* MBProgressHUD+LMJ.m */; };
+		08141D17228AB6FD008E3068 /* MBProgressHUD+Show.m in Sources */ = {isa = PBXBuildFile; fileRef = 08141D14228AB6FD008E3068 /* MBProgressHUD+Show.m */; };
+		08141D18228AB6FD008E3068 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 08141D15228AB6FD008E3068 /* MBProgressHUD.bundle */; };
+		085CDFC7228A8C3F004D2AE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CDFC6228A8C3F004D2AE4 /* AppDelegate.m */; };
+		085CDFCA228A8C3F004D2AE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CDFC9228A8C3F004D2AE4 /* ViewController.m */; };
+		085CDFCD228A8C3F004D2AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085CDFCB228A8C3F004D2AE4 /* Main.storyboard */; };
+		085CDFCF228A8C43004D2AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 085CDFCE228A8C43004D2AE4 /* Assets.xcassets */; };
+		085CDFD2228A8C43004D2AE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 085CDFD0228A8C43004D2AE4 /* LaunchScreen.storyboard */; };
+		085CDFD5228A8C43004D2AE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CDFD4228A8C43004D2AE4 /* main.m */; };
+		085CDFDF228A8C43004D2AE4 /* RETableViewManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CDFDE228A8C43004D2AE4 /* RETableViewManagerDemoTests.m */; };
+		085CDFEA228A8C44004D2AE4 /* RETableViewManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CDFE9228A8C44004D2AE4 /* RETableViewManagerDemoUITests.m */; };
+		085CE0BE228AA081004D2AE4 /* RPShareCategoryModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0BD228AA081004D2AE4 /* RPShareCategoryModule.m */; };
+		085CE0DD228AA13C004D2AE4 /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0C2228AA13C004D2AE4 /* TZImageCropManager.m */; };
+		085CE0DE228AA13C004D2AE4 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0C4228AA13C004D2AE4 /* TZAssetCell.m */; };
+		085CE0DF228AA13C004D2AE4 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0C5228AA13C004D2AE4 /* TZVideoPlayerController.m */; };
+		085CE0E0228AA13C004D2AE4 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0C6228AA13C004D2AE4 /* TZAssetModel.m */; };
+		085CE0E1228AA13C004D2AE4 /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0C7228AA13C004D2AE4 /* NSBundle+TZImagePicker.m */; };
+		085CE0E2228AA13C004D2AE4 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0CA228AA13C004D2AE4 /* UIView+Layout.m */; };
+		085CE0E3228AA13C004D2AE4 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0CB228AA13C004D2AE4 /* TZPhotoPreviewController.m */; };
+		085CE0E4228AA13C004D2AE4 /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 085CE0CC228AA13C004D2AE4 /* TZImagePickerController.bundle */; };
+		085CE0E5228AA13C004D2AE4 /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0CD228AA13C004D2AE4 /* TZProgressView.m */; };
+		085CE0E6228AA13C004D2AE4 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0D0228AA13C004D2AE4 /* TZImageManager.m */; };
+		085CE0E7228AA13C004D2AE4 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0D2228AA13C004D2AE4 /* TZPhotoPickerController.m */; };
+		085CE0E8228AA13C004D2AE4 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0D3228AA13C004D2AE4 /* TZPhotoPreviewCell.m */; };
+		085CE0E9228AA13C004D2AE4 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0D9228AA13C004D2AE4 /* TZImagePickerController.m */; };
+		085CE0EA228AA13D004D2AE4 /* TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0DA228AA13C004D2AE4 /* TZLocationManager.m */; };
+		085CE0EB228AA13D004D2AE4 /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0DB228AA13C004D2AE4 /* TZGifPhotoPreviewController.m */; };
+		085CE0EE228AA176004D2AE4 /* RPSharePhotoChooseItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0ED228AA176004D2AE4 /* RPSharePhotoChooseItem.m */; };
+		085CE0F1228AA18C004D2AE4 /* RPShareTypeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0F0228AA18C004D2AE4 /* RPShareTypeItem.m */; };
+		085CE0F4228AA1AE004D2AE4 /* RPInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0F3228AA1AE004D2AE4 /* RPInputView.m */; };
+		085CE0F7228AA1E2004D2AE4 /* RPSharePhotoChooseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0F6228AA1E2004D2AE4 /* RPSharePhotoChooseCell.m */; };
+		085CE0FB228AA20F004D2AE4 /* RPSharePhotoItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0F9228AA20F004D2AE4 /* RPSharePhotoItemCell.m */; };
+		085CE0FC228AA20F004D2AE4 /* RPSharePhotoItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085CE0FA228AA20F004D2AE4 /* RPSharePhotoItemCell.xib */; };
+		085CE0FF228AA231004D2AE4 /* RPShareTypeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE0FE228AA231004D2AE4 /* RPShareTypeCell.m */; };
+		085CE103228AA24C004D2AE4 /* RPShareTypeItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE101228AA24C004D2AE4 /* RPShareTypeItemCell.m */; };
+		085CE104228AA24C004D2AE4 /* RPShareTypeItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 085CE102228AA24C004D2AE4 /* RPShareTypeItemCell.xib */; };
+		085CE108228AA480004D2AE4 /* JXTAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE107228AA480004D2AE4 /* JXTAlertController.m */; };
+		085CE11E228AA8FA004D2AE4 /* CALayer+SDLayerColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE118228AA8FA004D2AE4 /* CALayer+SDLayerColor.m */; };
+		085CE11F228AA8FA004D2AE4 /* Color+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE119228AA8FA004D2AE4 /* Color+Hex.m */; };
+		085CE123228AAB19004D2AE4 /* UIViewController+ESSeparatorInset.m in Sources */ = {isa = PBXBuildFile; fileRef = 085CE122228AAB19004D2AE4 /* UIViewController+ESSeparatorInset.m */; };
+		B0958C2966B997754F3A6978 /* libPods-RETableViewManagerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B36FBB95CBECFC35A5D3AF05 /* libPods-RETableViewManagerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		085CDFDB228A8C43004D2AE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 085CDFBA228A8C3F004D2AE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 085CDFC1228A8C3F004D2AE4;
+			remoteInfo = RETableViewManagerDemo;
+		};
+		085CDFE6228A8C44004D2AE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 085CDFBA228A8C3F004D2AE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 085CDFC1228A8C3F004D2AE4;
+			remoteInfo = RETableViewManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08141D0D228AB5E7008E3068 /* NSObject+UserDefined.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UserDefined.m"; sourceTree = "<group>"; };
+		08141D0E228AB5E7008E3068 /* NSObject+UserDefined.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UserDefined.h"; sourceTree = "<group>"; };
+		08141D10228AB6FD008E3068 /* MBProgressHUD+LMJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LMJ.h"; sourceTree = "<group>"; };
+		08141D11228AB6FD008E3068 /* MBProgressHUD+LMJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LMJ.m"; sourceTree = "<group>"; };
+		08141D13228AB6FD008E3068 /* MBProgressHUD+Show.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Show.h"; sourceTree = "<group>"; };
+		08141D14228AB6FD008E3068 /* MBProgressHUD+Show.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Show.m"; sourceTree = "<group>"; };
+		08141D15228AB6FD008E3068 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		085CDFC2228A8C3F004D2AE4 /* RETableViewManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RETableViewManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		085CDFC5228A8C3F004D2AE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		085CDFC6228A8C3F004D2AE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		085CDFC8228A8C3F004D2AE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		085CDFC9228A8C3F004D2AE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		085CDFCC228A8C3F004D2AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		085CDFCE228A8C43004D2AE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		085CDFD1228A8C43004D2AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		085CDFD3228A8C43004D2AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		085CDFD4228A8C43004D2AE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		085CDFDA228A8C43004D2AE4 /* RETableViewManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETableViewManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		085CDFDE228A8C43004D2AE4 /* RETableViewManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RETableViewManagerDemoTests.m; sourceTree = "<group>"; };
+		085CDFE0228A8C43004D2AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		085CDFE5228A8C44004D2AE4 /* RETableViewManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETableViewManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		085CDFE9228A8C44004D2AE4 /* RETableViewManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RETableViewManagerDemoUITests.m; sourceTree = "<group>"; };
+		085CDFEB228A8C44004D2AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		085CE0BC228AA081004D2AE4 /* RPShareCategoryModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPShareCategoryModule.h; sourceTree = "<group>"; };
+		085CE0BD228AA081004D2AE4 /* RPShareCategoryModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPShareCategoryModule.m; sourceTree = "<group>"; };
+		085CE0C0228AA13C004D2AE4 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		085CE0C1228AA13C004D2AE4 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		085CE0C2228AA13C004D2AE4 /* TZImageCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageCropManager.m; sourceTree = "<group>"; };
+		085CE0C3228AA13C004D2AE4 /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		085CE0C4228AA13C004D2AE4 /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		085CE0C5228AA13C004D2AE4 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		085CE0C6228AA13C004D2AE4 /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		085CE0C7228AA13C004D2AE4 /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		085CE0C8228AA13C004D2AE4 /* TZLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZLocationManager.h; sourceTree = "<group>"; };
+		085CE0C9228AA13C004D2AE4 /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		085CE0CA228AA13C004D2AE4 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		085CE0CB228AA13C004D2AE4 /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		085CE0CC228AA13C004D2AE4 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		085CE0CD228AA13C004D2AE4 /* TZProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZProgressView.m; sourceTree = "<group>"; };
+		085CE0CE228AA13C004D2AE4 /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		085CE0CF228AA13C004D2AE4 /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		085CE0D0228AA13C004D2AE4 /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		085CE0D1228AA13C004D2AE4 /* TZImageCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageCropManager.h; sourceTree = "<group>"; };
+		085CE0D2228AA13C004D2AE4 /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		085CE0D3228AA13C004D2AE4 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		085CE0D4228AA13C004D2AE4 /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		085CE0D5228AA13C004D2AE4 /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		085CE0D6228AA13C004D2AE4 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		085CE0D7228AA13C004D2AE4 /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		085CE0D8228AA13C004D2AE4 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		085CE0D9228AA13C004D2AE4 /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		085CE0DA228AA13C004D2AE4 /* TZLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZLocationManager.m; sourceTree = "<group>"; };
+		085CE0DB228AA13C004D2AE4 /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
+		085CE0DC228AA13C004D2AE4 /* TZProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZProgressView.h; sourceTree = "<group>"; };
+		085CE0EC228AA176004D2AE4 /* RPSharePhotoChooseItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPSharePhotoChooseItem.h; sourceTree = "<group>"; };
+		085CE0ED228AA176004D2AE4 /* RPSharePhotoChooseItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPSharePhotoChooseItem.m; sourceTree = "<group>"; };
+		085CE0EF228AA18C004D2AE4 /* RPShareTypeItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPShareTypeItem.h; sourceTree = "<group>"; };
+		085CE0F0228AA18C004D2AE4 /* RPShareTypeItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPShareTypeItem.m; sourceTree = "<group>"; };
+		085CE0F2228AA1AE004D2AE4 /* RPInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPInputView.h; sourceTree = "<group>"; };
+		085CE0F3228AA1AE004D2AE4 /* RPInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPInputView.m; sourceTree = "<group>"; };
+		085CE0F5228AA1E2004D2AE4 /* RPSharePhotoChooseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPSharePhotoChooseCell.h; sourceTree = "<group>"; };
+		085CE0F6228AA1E2004D2AE4 /* RPSharePhotoChooseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPSharePhotoChooseCell.m; sourceTree = "<group>"; };
+		085CE0F8228AA20F004D2AE4 /* RPSharePhotoItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPSharePhotoItemCell.h; sourceTree = "<group>"; };
+		085CE0F9228AA20F004D2AE4 /* RPSharePhotoItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPSharePhotoItemCell.m; sourceTree = "<group>"; };
+		085CE0FA228AA20F004D2AE4 /* RPSharePhotoItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RPSharePhotoItemCell.xib; sourceTree = "<group>"; };
+		085CE0FD228AA231004D2AE4 /* RPShareTypeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPShareTypeCell.h; sourceTree = "<group>"; };
+		085CE0FE228AA231004D2AE4 /* RPShareTypeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPShareTypeCell.m; sourceTree = "<group>"; };
+		085CE100228AA24C004D2AE4 /* RPShareTypeItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RPShareTypeItemCell.h; sourceTree = "<group>"; };
+		085CE101228AA24C004D2AE4 /* RPShareTypeItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPShareTypeItemCell.m; sourceTree = "<group>"; };
+		085CE102228AA24C004D2AE4 /* RPShareTypeItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RPShareTypeItemCell.xib; sourceTree = "<group>"; };
+		085CE105228AA321004D2AE4 /* PrefixHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.h; sourceTree = "<group>"; };
+		085CE106228AA480004D2AE4 /* JXTAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXTAlertController.h; sourceTree = "<group>"; };
+		085CE107228AA480004D2AE4 /* JXTAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXTAlertController.m; sourceTree = "<group>"; };
+		085CE116228AA8FA004D2AE4 /* CALayer+SDLayerColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SDLayerColor.h"; sourceTree = "<group>"; };
+		085CE117228AA8FA004D2AE4 /* Color+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Color+Hex.h"; sourceTree = "<group>"; };
+		085CE118228AA8FA004D2AE4 /* CALayer+SDLayerColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SDLayerColor.m"; sourceTree = "<group>"; };
+		085CE119228AA8FA004D2AE4 /* Color+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Color+Hex.m"; sourceTree = "<group>"; };
+		085CE121228AAB19004D2AE4 /* UIViewController+ESSeparatorInset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ESSeparatorInset.h"; sourceTree = "<group>"; };
+		085CE122228AAB19004D2AE4 /* UIViewController+ESSeparatorInset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ESSeparatorInset.m"; sourceTree = "<group>"; };
+		820FAFA95FB393E8C56A18B2 /* Pods-RETableViewManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETableViewManagerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RETableViewManagerDemo/Pods-RETableViewManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A37AD595D83242983686BBC9 /* Pods-RETableViewManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RETableViewManagerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RETableViewManagerDemo/Pods-RETableViewManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B36FBB95CBECFC35A5D3AF05 /* libPods-RETableViewManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RETableViewManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		085CDFBF228A8C3F004D2AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0958C2966B997754F3A6978 /* libPods-RETableViewManagerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085CDFD7228A8C43004D2AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085CDFE2228A8C44004D2AE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08141D12228AB6FD008E3068 /* MBprogressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				08141D13228AB6FD008E3068 /* MBProgressHUD+Show.h */,
+				08141D14228AB6FD008E3068 /* MBProgressHUD+Show.m */,
+				08141D15228AB6FD008E3068 /* MBProgressHUD.bundle */,
+			);
+			path = MBprogressHUD;
+			sourceTree = "<group>";
+		};
+		085CDFB9228A8C3F004D2AE4 = {
+			isa = PBXGroup;
+			children = (
+				085CDFC4228A8C3F004D2AE4 /* RETableViewManagerDemo */,
+				085CDFDD228A8C43004D2AE4 /* RETableViewManagerDemoTests */,
+				085CDFE8228A8C44004D2AE4 /* RETableViewManagerDemoUITests */,
+				085CDFC3228A8C3F004D2AE4 /* Products */,
+				B6BEE0549D8A680B12729E75 /* Pods */,
+				E0499368FFC8895FED6FCC64 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		085CDFC3228A8C3F004D2AE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				085CDFC2228A8C3F004D2AE4 /* RETableViewManagerDemo.app */,
+				085CDFDA228A8C43004D2AE4 /* RETableViewManagerDemoTests.xctest */,
+				085CDFE5228A8C44004D2AE4 /* RETableViewManagerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		085CDFC4228A8C3F004D2AE4 /* RETableViewManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				085CDFF9228A9EB5004D2AE4 /* Controller */,
+				085CDFF8228A9EB5004D2AE4 /* Model */,
+				085CDFF7228A9EB5004D2AE4 /* View */,
+				085CDFFA228A9FAC004D2AE4 /* ThirdLib */,
+				085CDFCB228A8C3F004D2AE4 /* Main.storyboard */,
+				085CDFCE228A8C43004D2AE4 /* Assets.xcassets */,
+				085CDFC5228A8C3F004D2AE4 /* AppDelegate.h */,
+				085CDFC6228A8C3F004D2AE4 /* AppDelegate.m */,
+				085CE105228AA321004D2AE4 /* PrefixHeader.h */,
+				085CDFD0228A8C43004D2AE4 /* LaunchScreen.storyboard */,
+				085CDFD3228A8C43004D2AE4 /* Info.plist */,
+				085CDFD4228A8C43004D2AE4 /* main.m */,
+			);
+			path = RETableViewManagerDemo;
+			sourceTree = "<group>";
+		};
+		085CDFDD228A8C43004D2AE4 /* RETableViewManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				085CDFDE228A8C43004D2AE4 /* RETableViewManagerDemoTests.m */,
+				085CDFE0228A8C43004D2AE4 /* Info.plist */,
+			);
+			path = RETableViewManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		085CDFE8228A8C44004D2AE4 /* RETableViewManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				085CDFE9228A8C44004D2AE4 /* RETableViewManagerDemoUITests.m */,
+				085CDFEB228A8C44004D2AE4 /* Info.plist */,
+			);
+			path = RETableViewManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		085CDFF7228A9EB5004D2AE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				085CE0F2228AA1AE004D2AE4 /* RPInputView.h */,
+				085CE0F3228AA1AE004D2AE4 /* RPInputView.m */,
+				085CE0F5228AA1E2004D2AE4 /* RPSharePhotoChooseCell.h */,
+				085CE0F6228AA1E2004D2AE4 /* RPSharePhotoChooseCell.m */,
+				085CE0F8228AA20F004D2AE4 /* RPSharePhotoItemCell.h */,
+				085CE0F9228AA20F004D2AE4 /* RPSharePhotoItemCell.m */,
+				085CE0FA228AA20F004D2AE4 /* RPSharePhotoItemCell.xib */,
+				085CE0FD228AA231004D2AE4 /* RPShareTypeCell.h */,
+				085CE0FE228AA231004D2AE4 /* RPShareTypeCell.m */,
+				085CE100228AA24C004D2AE4 /* RPShareTypeItemCell.h */,
+				085CE101228AA24C004D2AE4 /* RPShareTypeItemCell.m */,
+				085CE102228AA24C004D2AE4 /* RPShareTypeItemCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		085CDFF8228A9EB5004D2AE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				085CE0BC228AA081004D2AE4 /* RPShareCategoryModule.h */,
+				085CE0BD228AA081004D2AE4 /* RPShareCategoryModule.m */,
+				085CE0EC228AA176004D2AE4 /* RPSharePhotoChooseItem.h */,
+				085CE0ED228AA176004D2AE4 /* RPSharePhotoChooseItem.m */,
+				085CE0EF228AA18C004D2AE4 /* RPShareTypeItem.h */,
+				085CE0F0228AA18C004D2AE4 /* RPShareTypeItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		085CDFF9228A9EB5004D2AE4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				085CDFC8228A8C3F004D2AE4 /* ViewController.h */,
+				085CDFC9228A8C3F004D2AE4 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		085CDFFA228A9FAC004D2AE4 /* ThirdLib */ = {
+			isa = PBXGroup;
+			children = (
+				08141D0E228AB5E7008E3068 /* NSObject+UserDefined.h */,
+				08141D0D228AB5E7008E3068 /* NSObject+UserDefined.m */,
+				085CE106228AA480004D2AE4 /* JXTAlertController.h */,
+				085CE107228AA480004D2AE4 /* JXTAlertController.m */,
+				085CE121228AAB19004D2AE4 /* UIViewController+ESSeparatorInset.h */,
+				085CE122228AAB19004D2AE4 /* UIViewController+ESSeparatorInset.m */,
+				08141D12228AB6FD008E3068 /* MBprogressHUD */,
+				08141D10228AB6FD008E3068 /* MBProgressHUD+LMJ.h */,
+				08141D11228AB6FD008E3068 /* MBProgressHUD+LMJ.m */,
+				085CE115228AA8FA004D2AE4 /* ColorHex */,
+				085CE0BF228AA13C004D2AE4 /* TZImagePickerController */,
+			);
+			path = ThirdLib;
+			sourceTree = "<group>";
+		};
+		085CE0BF228AA13C004D2AE4 /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				085CE0C0228AA13C004D2AE4 /* TZPhotoPreviewCell.h */,
+				085CE0C1228AA13C004D2AE4 /* TZPhotoPickerController.h */,
+				085CE0C2228AA13C004D2AE4 /* TZImageCropManager.m */,
+				085CE0C3228AA13C004D2AE4 /* TZImageManager.h */,
+				085CE0C4228AA13C004D2AE4 /* TZAssetCell.m */,
+				085CE0C5228AA13C004D2AE4 /* TZVideoPlayerController.m */,
+				085CE0C6228AA13C004D2AE4 /* TZAssetModel.m */,
+				085CE0C7228AA13C004D2AE4 /* NSBundle+TZImagePicker.m */,
+				085CE0C8228AA13C004D2AE4 /* TZLocationManager.h */,
+				085CE0C9228AA13C004D2AE4 /* TZImagePickerController.h */,
+				085CE0CA228AA13C004D2AE4 /* UIView+Layout.m */,
+				085CE0CB228AA13C004D2AE4 /* TZPhotoPreviewController.m */,
+				085CE0CC228AA13C004D2AE4 /* TZImagePickerController.bundle */,
+				085CE0CD228AA13C004D2AE4 /* TZProgressView.m */,
+				085CE0CE228AA13C004D2AE4 /* TZGifPhotoPreviewController.h */,
+				085CE0CF228AA13C004D2AE4 /* TZAssetCell.h */,
+				085CE0D0228AA13C004D2AE4 /* TZImageManager.m */,
+				085CE0D1228AA13C004D2AE4 /* TZImageCropManager.h */,
+				085CE0D2228AA13C004D2AE4 /* TZPhotoPickerController.m */,
+				085CE0D3228AA13C004D2AE4 /* TZPhotoPreviewCell.m */,
+				085CE0D4228AA13C004D2AE4 /* NSBundle+TZImagePicker.h */,
+				085CE0D5228AA13C004D2AE4 /* TZAssetModel.h */,
+				085CE0D6228AA13C004D2AE4 /* TZVideoPlayerController.h */,
+				085CE0D7228AA13C004D2AE4 /* TZPhotoPreviewController.h */,
+				085CE0D8228AA13C004D2AE4 /* UIView+Layout.h */,
+				085CE0D9228AA13C004D2AE4 /* TZImagePickerController.m */,
+				085CE0DA228AA13C004D2AE4 /* TZLocationManager.m */,
+				085CE0DB228AA13C004D2AE4 /* TZGifPhotoPreviewController.m */,
+				085CE0DC228AA13C004D2AE4 /* TZProgressView.h */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		085CE115228AA8FA004D2AE4 /* ColorHex */ = {
+			isa = PBXGroup;
+			children = (
+				085CE116228AA8FA004D2AE4 /* CALayer+SDLayerColor.h */,
+				085CE117228AA8FA004D2AE4 /* Color+Hex.h */,
+				085CE118228AA8FA004D2AE4 /* CALayer+SDLayerColor.m */,
+				085CE119228AA8FA004D2AE4 /* Color+Hex.m */,
+			);
+			path = ColorHex;
+			sourceTree = "<group>";
+		};
+		B6BEE0549D8A680B12729E75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A37AD595D83242983686BBC9 /* Pods-RETableViewManagerDemo.debug.xcconfig */,
+				820FAFA95FB393E8C56A18B2 /* Pods-RETableViewManagerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E0499368FFC8895FED6FCC64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B36FBB95CBECFC35A5D3AF05 /* libPods-RETableViewManagerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		085CDFC1228A8C3F004D2AE4 /* RETableViewManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085CDFEE228A8C44004D2AE4 /* Build configuration list for PBXNativeTarget "RETableViewManagerDemo" */;
+			buildPhases = (
+				B0D44F23B92DA2AD33F45415 /* [CP] Check Pods Manifest.lock */,
+				085CDFBE228A8C3F004D2AE4 /* Sources */,
+				085CDFBF228A8C3F004D2AE4 /* Frameworks */,
+				085CDFC0228A8C3F004D2AE4 /* Resources */,
+				3E061B37CF400D58520C4AB3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RETableViewManagerDemo;
+			productName = RETableViewManagerDemo;
+			productReference = 085CDFC2228A8C3F004D2AE4 /* RETableViewManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		085CDFD9228A8C43004D2AE4 /* RETableViewManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085CDFF1228A8C44004D2AE4 /* Build configuration list for PBXNativeTarget "RETableViewManagerDemoTests" */;
+			buildPhases = (
+				085CDFD6228A8C43004D2AE4 /* Sources */,
+				085CDFD7228A8C43004D2AE4 /* Frameworks */,
+				085CDFD8228A8C43004D2AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				085CDFDC228A8C43004D2AE4 /* PBXTargetDependency */,
+			);
+			name = RETableViewManagerDemoTests;
+			productName = RETableViewManagerDemoTests;
+			productReference = 085CDFDA228A8C43004D2AE4 /* RETableViewManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		085CDFE4228A8C44004D2AE4 /* RETableViewManagerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085CDFF4228A8C44004D2AE4 /* Build configuration list for PBXNativeTarget "RETableViewManagerDemoUITests" */;
+			buildPhases = (
+				085CDFE1228A8C44004D2AE4 /* Sources */,
+				085CDFE2228A8C44004D2AE4 /* Frameworks */,
+				085CDFE3228A8C44004D2AE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				085CDFE7228A8C44004D2AE4 /* PBXTargetDependency */,
+			);
+			name = RETableViewManagerDemoUITests;
+			productName = RETableViewManagerDemoUITests;
+			productReference = 085CDFE5228A8C44004D2AE4 /* RETableViewManagerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		085CDFBA228A8C3F004D2AE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = rpweng;
+				TargetAttributes = {
+					085CDFC1228A8C3F004D2AE4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					085CDFD9228A8C43004D2AE4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 085CDFC1228A8C3F004D2AE4;
+					};
+					085CDFE4228A8C44004D2AE4 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 085CDFC1228A8C3F004D2AE4;
+					};
+				};
+			};
+			buildConfigurationList = 085CDFBD228A8C3F004D2AE4 /* Build configuration list for PBXProject "RETableViewManagerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 085CDFB9228A8C3F004D2AE4;
+			productRefGroup = 085CDFC3228A8C3F004D2AE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				085CDFC1228A8C3F004D2AE4 /* RETableViewManagerDemo */,
+				085CDFD9228A8C43004D2AE4 /* RETableViewManagerDemoTests */,
+				085CDFE4228A8C44004D2AE4 /* RETableViewManagerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		085CDFC0228A8C3F004D2AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085CE0E4228AA13C004D2AE4 /* TZImagePickerController.bundle in Resources */,
+				085CDFD2228A8C43004D2AE4 /* LaunchScreen.storyboard in Resources */,
+				085CDFCF228A8C43004D2AE4 /* Assets.xcassets in Resources */,
+				085CE0FC228AA20F004D2AE4 /* RPSharePhotoItemCell.xib in Resources */,
+				085CE104228AA24C004D2AE4 /* RPShareTypeItemCell.xib in Resources */,
+				085CDFCD228A8C3F004D2AE4 /* Main.storyboard in Resources */,
+				08141D18228AB6FD008E3068 /* MBProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085CDFD8228A8C43004D2AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085CDFE3228A8C44004D2AE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E061B37CF400D58520C4AB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RETableViewManagerDemo/Pods-RETableViewManagerDemo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/RETableViewManager/RETableViewManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RETableViewManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RETableViewManagerDemo/Pods-RETableViewManagerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0D44F23B92DA2AD33F45415 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RETableViewManagerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		085CDFBE228A8C3F004D2AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08141D17228AB6FD008E3068 /* MBProgressHUD+Show.m in Sources */,
+				085CE0EE228AA176004D2AE4 /* RPSharePhotoChooseItem.m in Sources */,
+				085CE0E5228AA13C004D2AE4 /* TZProgressView.m in Sources */,
+				085CDFCA228A8C3F004D2AE4 /* ViewController.m in Sources */,
+				085CE108228AA480004D2AE4 /* JXTAlertController.m in Sources */,
+				085CE0E0228AA13C004D2AE4 /* TZAssetModel.m in Sources */,
+				085CE0E9228AA13C004D2AE4 /* TZImagePickerController.m in Sources */,
+				085CE0E2228AA13C004D2AE4 /* UIView+Layout.m in Sources */,
+				085CE0E7228AA13C004D2AE4 /* TZPhotoPickerController.m in Sources */,
+				08141D0F228AB5E7008E3068 /* NSObject+UserDefined.m in Sources */,
+				085CE0E6228AA13C004D2AE4 /* TZImageManager.m in Sources */,
+				085CE11F228AA8FA004D2AE4 /* Color+Hex.m in Sources */,
+				085CDFD5228A8C43004D2AE4 /* main.m in Sources */,
+				085CE0DE228AA13C004D2AE4 /* TZAssetCell.m in Sources */,
+				085CE0E1228AA13C004D2AE4 /* NSBundle+TZImagePicker.m in Sources */,
+				085CE0F1228AA18C004D2AE4 /* RPShareTypeItem.m in Sources */,
+				085CE0DD228AA13C004D2AE4 /* TZImageCropManager.m in Sources */,
+				085CE0EB228AA13D004D2AE4 /* TZGifPhotoPreviewController.m in Sources */,
+				085CE0FF228AA231004D2AE4 /* RPShareTypeCell.m in Sources */,
+				085CE0EA228AA13D004D2AE4 /* TZLocationManager.m in Sources */,
+				085CE0E8228AA13C004D2AE4 /* TZPhotoPreviewCell.m in Sources */,
+				085CE0FB228AA20F004D2AE4 /* RPSharePhotoItemCell.m in Sources */,
+				085CE0DF228AA13C004D2AE4 /* TZVideoPlayerController.m in Sources */,
+				085CE0F7228AA1E2004D2AE4 /* RPSharePhotoChooseCell.m in Sources */,
+				085CE0F4228AA1AE004D2AE4 /* RPInputView.m in Sources */,
+				085CDFC7228A8C3F004D2AE4 /* AppDelegate.m in Sources */,
+				08141D16228AB6FD008E3068 /* MBProgressHUD+LMJ.m in Sources */,
+				085CE123228AAB19004D2AE4 /* UIViewController+ESSeparatorInset.m in Sources */,
+				085CE103228AA24C004D2AE4 /* RPShareTypeItemCell.m in Sources */,
+				085CE0E3228AA13C004D2AE4 /* TZPhotoPreviewController.m in Sources */,
+				085CE0BE228AA081004D2AE4 /* RPShareCategoryModule.m in Sources */,
+				085CE11E228AA8FA004D2AE4 /* CALayer+SDLayerColor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085CDFD6228A8C43004D2AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085CDFDF228A8C43004D2AE4 /* RETableViewManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085CDFE1228A8C44004D2AE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085CDFEA228A8C44004D2AE4 /* RETableViewManagerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		085CDFDC228A8C43004D2AE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 085CDFC1228A8C3F004D2AE4 /* RETableViewManagerDemo */;
+			targetProxy = 085CDFDB228A8C43004D2AE4 /* PBXContainerItemProxy */;
+		};
+		085CDFE7228A8C44004D2AE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 085CDFC1228A8C3F004D2AE4 /* RETableViewManagerDemo */;
+			targetProxy = 085CDFE6228A8C44004D2AE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		085CDFCB228A8C3F004D2AE4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				085CDFCC228A8C3F004D2AE4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		085CDFD0228A8C43004D2AE4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				085CDFD1228A8C43004D2AE4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		085CDFEC228A8C44004D2AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		085CDFED228A8C44004D2AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		085CDFEF228A8C44004D2AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A37AD595D83242983686BBC9 /* Pods-RETableViewManagerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6MK7U7JC4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RETableViewManagerDemo/PrefixHeader.h";
+				INFOPLIST_FILE = RETableViewManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rpweng.RETableViewManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		085CDFF0228A8C44004D2AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820FAFA95FB393E8C56A18B2 /* Pods-RETableViewManagerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6MK7U7JC4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RETableViewManagerDemo/PrefixHeader.h";
+				INFOPLIST_FILE = RETableViewManagerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rpweng.RETableViewManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		085CDFF2228A8C44004D2AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RETableViewManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rpweng.RETableViewManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RETableViewManagerDemo.app/RETableViewManagerDemo";
+			};
+			name = Debug;
+		};
+		085CDFF3228A8C44004D2AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RETableViewManagerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rpweng.RETableViewManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RETableViewManagerDemo.app/RETableViewManagerDemo";
+			};
+			name = Release;
+		};
+		085CDFF5228A8C44004D2AE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RETableViewManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rpweng.RETableViewManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RETableViewManagerDemo;
+			};
+			name = Debug;
+		};
+		085CDFF6228A8C44004D2AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RETableViewManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rpweng.RETableViewManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RETableViewManagerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		085CDFBD228A8C3F004D2AE4 /* Build configuration list for PBXProject "RETableViewManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085CDFEC228A8C44004D2AE4 /* Debug */,
+				085CDFED228A8C44004D2AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085CDFEE228A8C44004D2AE4 /* Build configuration list for PBXNativeTarget "RETableViewManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085CDFEF228A8C44004D2AE4 /* Debug */,
+				085CDFF0228A8C44004D2AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085CDFF1228A8C44004D2AE4 /* Build configuration list for PBXNativeTarget "RETableViewManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085CDFF2228A8C44004D2AE4 /* Debug */,
+				085CDFF3228A8C44004D2AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085CDFF4228A8C44004D2AE4 /* Build configuration list for PBXNativeTarget "RETableViewManagerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085CDFF5228A8C44004D2AE4 /* Debug */,
+				085CDFF6228A8C44004D2AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 085CDFBA228A8C3F004D2AE4 /* Project object */;
+}
